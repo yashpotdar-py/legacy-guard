@@ -1,0 +1,14 @@
+# Web Framework
+Flask
+streamlit
+
+# AI/ML Libraries
+langchain
+torch
+transformers
+
+# Version Control
+GitPython
+
+# Configuration
+python-dotenv
