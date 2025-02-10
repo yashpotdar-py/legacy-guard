@@ -12,3 +12,4 @@ GitPython
 
 # Configuration
 python-dotenv
+chardet
