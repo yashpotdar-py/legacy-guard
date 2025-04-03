@@ -43,6 +43,8 @@ legacy-guard/
 ## Getting Started
 
 [Installation instructions will be added]
+   docker-compose up --build
+   docker-compose down
 
 ## Development
 
