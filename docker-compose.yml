@@ -20,8 +20,8 @@ services:
       - "8000:8000"
     environment:
       - POSTGRES_SERVER=db
-      - POSTGRES_USER=legacyguard
-      - POSTGRES_PASSWORD=legacyguard
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=legacyguard
       - MODEL_NAME=bigcode/starcoder
       - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
@@ -43,8 +43,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_USER=legacyguard
-      - POSTGRES_PASSWORD=legacyguard
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=legacyguard
     volumes:
       - postgres_data:/var/lib/postgresql/data
